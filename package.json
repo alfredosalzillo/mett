@@ -1,5 +1,5 @@
 {
-  "name": "mett",
+  "name": "boring-event-emitter",
   "version": "1.0.0",
   "description": "A boring event emitter",
   "type": "module",

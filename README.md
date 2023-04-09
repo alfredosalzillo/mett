@@ -1,4 +1,4 @@
-# meet
+# meet (boring-event-emitter)
 [![CD](https://github.com/alfredosalzillo/mett/workflows/CD/badge.svg)](https://github.com/alfredosalzillo/mett/actions/workflows/CD.yml)
 [![CI](https://github.com/alfredosalzillo/mett/workflows/CI/badge.svg)](https://github.com/alfredosalzillo/mett/actions/workflows/CI.yml)
 [![codecov](https://codecov.io/gh/alfredosalzillo/mett/branch/main/graph/badge.svg)](https://codecov.io/gh/alfredosalzillo/mett)
@@ -21,19 +21,19 @@ yarn add mett
 
 ```typescript
 // using ES6 modules
-import mett from 'mett'
+import mett from 'boring-event-emitter'
 
 // using CommonJS modules
-const mett = require('mett')
+const mett = require('boring-event-emitter')
 ```
 
 Create a single-event event emitter.
 
 ```typescript
-import mett from 'mett'
+import mett from 'boring-event-emitter'
 
 // create a new event with numeric values
-const event = meet<number>()
+const event = mett<number>()
 
 // listen to an event
 const dispose = event.listen((value) => console.log(`value is ${value}`))
