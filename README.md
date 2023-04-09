@@ -21,16 +21,16 @@ yarn add mett
 
 ```typescript
 // using ES6 modules
-import mett from 'mitt'
+import mett from 'mett'
 
 // using CommonJS modules
-const mett = require('mitt')
+const mett = require('mett')
 ```
 
 Create a single-event event emitter.
 
 ```typescript
-import mett from 'meet'
+import mett from 'mett'
 
 // create a new event with numeric values
 const event = meet<number>()
